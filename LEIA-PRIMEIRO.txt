@@ -1,0 +1,19 @@
+BG DROP — VERSAO SEM PASTAS
+
+Este pacote possui apenas arquivos soltos.
+
+No GitHub, envie TODOS os arquivos para a primeira tela do repositorio.
+
+Cloudflare:
+Build command: npm run build
+Deploy command: npm run deploy
+Root directory: /
+
+Painel: /admin
+Senha inicial: BGDrop@2026
+
+Depois do primeiro deploy, crie uma variavel secreta ADMIN_PASSWORD no
+Cloudflare para trocar a senha inicial.
+
+O painel e o carrinho usam o armazenamento do navegador. Isso permite que
+funcionem sem banco ou configuracoes adicionais da Cloudflare.
