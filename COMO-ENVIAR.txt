@@ -1,0 +1,15 @@
+BG DROP — PACOTE COMPLETO PARA GITHUB E CLOUDFLARE
+
+1. Extraia este ZIP no computador.
+2. No GitHub, apague os arquivos antigos do repositorio.
+3. Use Add file > Upload files.
+4. Arraste todo o CONTEUDO da pasta extraida para a pagina do GitHub.
+5. Espere todos os arquivos terminarem e clique em Commit changes.
+6. No Cloudflare use:
+   Build command: npm run build
+   Deploy command: npm run deploy
+   Root directory: /
+
+Nome do projeto: bg-drop
+
+Confira no GitHub se app/page.tsx aparece antes de executar o build.
