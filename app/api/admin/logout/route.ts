@@ -1,4 +1,4 @@
-import { clearAdminSession } from "../../../_core/admin-auth";
+import { clearAdminSession } from "../../../core/admin-auth";
 
 export async function POST() {
   await clearAdminSession();

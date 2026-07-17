@@ -1,5 +1,5 @@
-import { requireAdmin } from "../../../_core/admin-auth";
-import { getRuntimeBindings } from "../../../_core/runtime-env";
+import { requireAdmin } from "../../../core/admin-auth";
+import { getRuntimeBindings } from "../../../core/runtime-env";
 
 export async function POST(request: Request) {
   const unauthorized = await requireAdmin();

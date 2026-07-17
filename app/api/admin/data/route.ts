@@ -1,7 +1,7 @@
 import { desc, eq } from "drizzle-orm";
-import { getDb } from "../../../_core/db";
-import { categories, coupons, orders, products, settings } from "../../../_core/schema";
-import { requireAdmin } from "../../../_core/admin-auth";
+import { getDb } from "../../../core/db";
+import { categories, coupons, orders, products, settings } from "../../../core/schema";
+import { requireAdmin } from "../../../core/admin-auth";
 
 const json = (value: unknown) => JSON.stringify(Array.isArray(value) ? value : []);
 const parse = (value: string) => { try { return JSON.parse(value); } catch { return []; } };

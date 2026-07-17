@@ -1,4 +1,4 @@
-import { createAdminSession, verifyAdminPassword } from "../../../_core/admin-auth";
+import { createAdminSession, verifyAdminPassword } from "../../../core/admin-auth";
 
 export async function POST(request: Request) {
   const payload = (await request.json().catch(() => ({}))) as { password?: string };

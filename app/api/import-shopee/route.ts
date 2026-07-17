@@ -1,4 +1,4 @@
-import { requireAdmin } from "../../_core/admin-auth";
+import { requireAdmin } from "../../core/admin-auth";
 
 type Diagnostic = { attempts: string[]; resolvedUrl?: string; shopId?: string; itemId?: string };
 
